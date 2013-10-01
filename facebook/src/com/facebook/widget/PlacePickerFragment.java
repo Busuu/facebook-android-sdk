@@ -203,11 +203,11 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
      * UI instead of the default one).
      *
      * @param searchText                 the search text
-     * @param forceReloadEventIfSameText if true, will reload even if the search text has not changed; if false,
+     * @param forceReloAdEvenIfSameText if true, will reload even if the search text has not changed; if false,
      *                                   identical search text will not force a reload
      */
-    public void onSearchBoxTextChanged(String searchText, boolean forceReloadEventIfSameText) {
-        if (!forceReloadEventIfSameText && Utility.stringsEqualOrEmpty(this.searchText, searchText)) {
+    public void onSearchBoxTextChanged(String searchText, boolean forceReloAdEvenIfSameText) {
+        if (!forceReloAdEvenIfSameText && Utility.stringsEqualOrEmpty(this.searchText, searchText)) {
             return;
         }
 

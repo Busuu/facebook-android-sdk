@@ -58,10 +58,10 @@ public class HelloFacebookSampleActivity extends FragmentActivity {
     private LoginButton loginButton;
     private ProfilePictureView profilePictureView;
     private TextView greeting;
-    private PendingAction pendingAction = PendingAction.NONE;
     private ViewGroup controlsContainer;
     private GraphUser user;
 
+    private PendingAction pendingAction = PendingAction.NONE;
     private enum PendingAction {
         NONE,
         POST_PHOTO,
